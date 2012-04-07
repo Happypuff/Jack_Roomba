@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TextView  
+        android:id="@+id/title"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="@string/hello"
+        android:textSize="24sp"
+        android:textStyle="bold">
+    </TextView>
+    
+    <TextView
+        android:id="@+id/lblLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/left_text"
+        android:textSize="24sp"
+        android:textStyle="bold" >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/tvLeft"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/zero"
+        android:textSize="24sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <SeekBar
+        android:id="@+id/sbLeft"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="70"
+        android:progress="0"
+        android:visibility="visible" >
+    </SeekBar>
+
+    <TextView
+        android:id="@+id/lblFront"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/front_text"
+        android:textSize="24sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvFront"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/zero"
+        android:textSize="24sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <SeekBar
+        android:id="@+id/sbFront"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="70"
+        android:progress="0"
+        android:visibility="visible" >
+    </SeekBar>
+    
+    <TextView
+        android:id="@+id/lblRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/right_text"
+        android:textSize="24sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvRight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/zero"
+        android:textSize="24sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <SeekBar
+        android:id="@+id/sbRight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="70"
+        android:progress="0"
+        android:visibility="visible" >
+    </SeekBar>
+    
+    <org.wintrisstech.erik.iaroc.LogTextView
+        android:id="@+id/text"
+        android:background="@drawable/box"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:scrollbars="vertical"/>
+    
+</LinearLayout>

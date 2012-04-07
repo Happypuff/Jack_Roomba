@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello, iRobot User!</string>
+    <string name="app_name">iRobot 2012</string>
+    <string name="wait_ioio">Waiting for IOIO to connect...</string>
+    <string name="ioio_connected">IOIO connected!</string>
+    <string name="wait_create">Waiting for Create to connect...</string>
+    <string name="create_connected">Create connected!</string>
+    <string name="left_text">Left Sensor:</string>
+    <string name="front_text">Front Sensor:</string>
+    <string name="right_text">Right Sensor:</string>
+    <string name="zero">0</string>
+</resources>
